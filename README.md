@@ -170,7 +170,7 @@ $matrice = [];
 ?>
 ```
 
-Entre les deux commentaires, ajoutez le code nécessaire pour que le contenu de `$matrice` produise l'affichage ci-dessous. **Le code que vous affichez ne doit rien afficher sur la page, du code est déjà présent plus bas dans le fichier pour afficher le contenu de la matrice.**
+Entre les deux commentaires, ajoutez les boucles imbriquées nécessaires pour que le contenu de `$matrice` produise l'affichage ci-dessous. **Le code que vous ajoutez ne doit contenir aucun affichage. Du code est déjà présent plus bas dans le fichier pour afficher le contenu de la matrice.**
 
 ![](images-readme/etoiles2.png)
 
@@ -178,7 +178,7 @@ Entre les deux commentaires, ajoutez le code nécessaire pour que le contenu de 
 
 Ouvrez le fichier `pages/etoiles3.php`.
 
-Entre les deux commentaires en début de fichier, ajoutez le code nécessaire pour que le contenu de `$matrice` produise l'affichage ci-dessous. Encore une fois, le code que vous ajoutez ne doit rien afficher sur la page.
+Entre les deux commentaires en début de fichier, ajoutez les boucles imbriquées nécessaires pour que le contenu de `$matrice` produise l'affichage ci-dessous. Encore une fois, le code que vous ajoutez ne doit contenir aucun affichage.
 
 ![](images-readme/etoiles3.png)
 
@@ -186,6 +186,14 @@ Entre les deux commentaires en début de fichier, ajoutez le code nécessaire po
 
 Ouvrez le fichier `pages/etoiles4.php`.
 
-Entre les deux commentaires en début de fichier, ajoutez le code nécessaire pour que le contenu de `$matrice` produise l'affichage ci-dessous. Encore une fois, le code que vous ajoutez ne doit rien afficher sur la page.
+Entre les deux commentaires en début de fichier, ajoutez les boucles imbriquées nécessaires pour que le contenu de `$matrice` produise l'affichage ci-dessous. Encore une fois, le code que vous ajoutez ne doit contenir aucun affichage.
 
 ![](images-readme/etoiles4.png)
+
+### 11 - Matrice de nombres
+
+Ouvrez le fichier `pages/matriceNombres.php`.
+
+Entre les deux commentaires en début de fichier, ajoutez les boucles imbriquées nécessaires pour que le contenu de `$matrice` produise l'affichage ci-dessous. Encore une fois, le code que vous ajoutez ne doit contenir aucun affichage.
+
+![](images-readme/matriceNombres.png)
