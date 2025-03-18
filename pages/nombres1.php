@@ -1,13 +1,3 @@
-<?php
-
-$nombres = [];
-
-for ($i = 1; $i <= 100; $i++) {
-    $nombres[] = $i;
-}
-
-?>
-
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -21,12 +11,5 @@ for ($i = 1; $i <= 100; $i++) {
         <a href="../index.php">Retour</a>
     </nav>    
     <h1>Tableau de nombres v1</h1>
-    <ul>
-        <?php
-        foreach ($nombres as $nombre) {
-            echo "<li>$nombre</li>";
-        }
-        ?>
-    </ul>
 </body>
 </html>
