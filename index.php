@@ -1,12 +1,12 @@
 <?php
 
-$partie1 = [
-    ['Exercice de diction', 'partie1/diction.php'],
-    ['Tableau de nombres v1', 'partie1/nombres1.php'],
-    ['Tableau de nombres v2', 'partie1/nombres2.php'],
-    ['Fibonacci', 'partie1/fibonacci.php'],
-    ['FizzBuzz', 'partie1/fizzbuzz.php'],
-    ['Suppression', 'partie1/suppression.php']
+$pages = [
+    ['Exercice de diction', 'pages/diction.php'],
+    ['Tableau de nombres v1', 'pages/nombres1.php'],
+    ['Tableau de nombres v2', 'pages/nombres2.php'],
+    ['Fibonacci', 'pages/fibonacci.php'],
+    ['FizzBuzz', 'pages/fizzbuzz.php'],
+    ['Suppression', 'pages/suppression.php']
 ]
 
 ?>
@@ -20,12 +20,11 @@ $partie1 = [
     <link rel="stylesheet" href="water.css">
 </head>
 <body>
-    <h1>Laboratoire 03</h1>
+    <h1>Laboratoire 03-A</h1>
     <nav>
-        <h2>Partie 1</h2>
         <ul>
             <?php
-            foreach ($partie1 as $page) {
+            foreach ($pages as $page) {
                 echo "<li><a href='{$page[1]}'>{$page[0]}</a></li>";
             }
             ?>
