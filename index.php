@@ -5,7 +5,8 @@ $partie1 = [
     ['Tableau de nombres v1', 'partie1/nombres1.php'],
     ['Tableau de nombres v2', 'partie1/nombres2.php'],
     ['Fibonacci', 'partie1/fibonacci.php'],
-    ['FizzBuzz', 'partie1/fizzbuzz.php']
+    ['FizzBuzz', 'partie1/fizzbuzz.php'],
+    ['Suppression', 'partie1/suppression.php']
 ]
 
 ?>

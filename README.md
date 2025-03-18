@@ -84,3 +84,13 @@ Finalement, utilisez **une troisième boucle** pour afficher le contenu du table
 Voici un extrait du résultat attendu:
 
 ![](fizzbuzz.php)
+
+### 1.6 - Suppression
+
+Dans le fichier `partie1/suppression.php`, créez un tableau que vous remplirez de 10 nombres aléatoires entre 1 et 100 à l'aide d'une boucle. À l'aide d'**une deuxième boucle**, affichez les 10 nombres du tableau dans un `ol`. Supprimez ensuite **le quatrième élément** du tableau. À l'aide d'**une troisième boucle**, affichez le contenu du tableau de nouveau.
+
+La ligne de code `$nombreAleatoire = rand(1, 100);` permet d'obtenir un nombre aléatoire entre 1 et 100.
+
+Voici un exemple de résultat attendu:
+
+![](images-readme/suppression.png)
