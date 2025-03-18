@@ -12,6 +12,7 @@ $pages = [
     ["Matrice d'étoiles v3", 'pages/etoiles3.php'],
     ["Matrice d'étoiles v4", 'pages/etoiles4.php'],
     ['Matrice de nombres', 'pages/matriceNombres.php'],
+    ['Art ASCII', 'pages/artAscii.php'],
 ]
 
 ?>
