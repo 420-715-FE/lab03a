@@ -12,7 +12,7 @@ Vous devriez voir une page avec le titre « Laboratoire 03-A ».
 
 Ouvrez ensuite le dossier `lab03a` dans Visual Studio Code. Prenez connaissance des fichiers qu'il contient. Vous constaterez qu'il y a un fichier `index.php` (page d'accueil du laboratoire) et un sous-dossier `pages` contenant plusieurs autres fichiers PHP.
 
-### 0 - Création du menu
+## 0 - Création du menu
 
 Pour commencer, il serait agréable d'avoir une liste de liens vers chaque exercice sur la page d'accueil (`index.php`), comme ceci:
 
@@ -61,7 +61,7 @@ Ce code itère sur la matrice `$pages` à l'aide d'une boucle `foreach` et affic
 
 Rechargez la page d'accueil. Vous devriez maintenant voir le menu!
 
-### 1 - Exercice de diction
+## 1 - Exercice de diction
 
 Dans le fichier `pages/diction.php`, créez un tableau contenant les 10 chaînes de caractères suivantes:
 
@@ -84,7 +84,7 @@ Voici la ligne de code permettant de sélectionner un élément aléatoire d'un 
 
 `$elementAleatoire = $tableau[array_rand($tableau)];`
 
-### 2 - Tableau de nombres v1
+## 2 - Tableau de nombres v1
 
 Dans le fichier `pages/nombres1.php`, créez un tableau vide. Ensuite, utilisez une boucle **for** pour ajouter les nombres 1 à 100 au tableau. Utilisez ensuite **une autre boucle** pour afficher tous les nombres du tableau dans une liste `ul`.
 
@@ -92,7 +92,7 @@ Voici un extrait du résultat attendu:
 
 ![](images-readme/nombres1.png)
 
-### 3 - Tableau de nombres v2
+## 3 - Tableau de nombres v2
 
 Dans le fichier `pages/nombres2.php`, créez un tableau vide. Ensuite, utilisez une boucle **for** qui ajoute au tableau les **nombres pairs** de 0 à `$_GET['n']`, avec une valeur par défaut de 20 si `$_GET['n']` est absent ou invalide. Utilisez ensuite **une autre boucle** pour afficher tous les nombres du tableau dans une liste `ul`. À la suite de cette liste, ajoutez un lien permettant de recharger la page avec 10 nombres de plus.
 
@@ -100,7 +100,7 @@ Voici le résultat attendu:
 
 ![](images-readme/nombres2.png)
 
-### 4 - Fibonacci
+## 4 - Fibonacci
 
 Dans le fichier `pages/fibonacci.php`, créez un tableau vide. Ensuite, utilisez une boucle pour insérer dans ce tableau les 100 premiers nombres de la suite de Fibonacci.
 
@@ -120,7 +120,7 @@ Voici le résultat attendu pour `id=8`:
 
 ![](images-readme/fibonacci.png)
 
-### 5 - FizzBuzz
+## 5 - FizzBuzz
 
 Dans le fichier `pages/fizzbuzz.php`, créez un tableau vide. Ensuite, utilisez une boucle pour ajouter à ce tableau les nombres de 1 à 100.
 
@@ -136,7 +136,7 @@ Voici un extrait du résultat attendu:
 
 ![](images-readme/fizzbuzz.png)
 
-### 6 - Suppression
+## 6 - Suppression
 
 Dans le fichier `pages/suppression.php`, créez un tableau que vous remplirez de 10 nombres aléatoires entre 1 et 100 à l'aide d'une boucle. À l'aide d'**une deuxième boucle**, affichez les 10 nombres du tableau dans un `ol`. Supprimez ensuite **le quatrième élément** du tableau. À l'aide d'**une troisième boucle**, affichez le contenu du tableau de nouveau.
 
@@ -146,7 +146,7 @@ Voici un exemple de résultat attendu:
 
 ![](images-readme/suppression.png)
 
-### 7 - Matrice d'étoiles v1
+## 7 - Matrice d'étoiles v1
 
 La page **Matrice d'étoiles v1** correspond au fichier `pages/etoiles1.php`. Le code de cette page est déjà complet.
 
@@ -205,7 +205,7 @@ Dans cet extrait, la boucle externe (`foreach ($matrice as $ligne)`) itère sur 
 
 Assurez-vous de bien comprendre les explications ci-dessus avant de poursuivre le laboratoire. Posez vos questions à l'enseignant au besoin.
 
-### 8 - Matrice d'étoiles v2
+## 8 - Matrice d'étoiles v2
 
 Ouvrez le fichier `pages/etoile2.php`. Vous trouverez ceci au début du fichier:
 
@@ -227,7 +227,7 @@ Entre les deux commentaires, ajoutez les boucles imbriquées nécessaires pour q
 
 ![](images-readme/etoiles2.png)
 
-### 9 - Matrice d'étoiles v3
+## 9 - Matrice d'étoiles v3
 
 Ouvrez le fichier `pages/etoiles3.php`.
 
@@ -235,7 +235,7 @@ Entre les deux commentaires en début de fichier, ajoutez les boucles imbriquée
 
 ![](images-readme/etoiles3.png)
 
-### 10 - Matrice d'étoiles v4
+## 10 - Matrice d'étoiles v4
 
 Ouvrez le fichier `pages/etoiles4.php`.
 
@@ -243,7 +243,7 @@ Entre les deux commentaires en début de fichier, ajoutez les boucles imbriquée
 
 ![](images-readme/etoiles4.png)
 
-### 11 - Matrice de nombres
+## 11 - Matrice de nombres
 
 Ouvrez le fichier `pages/matriceNombres.php`.
 
@@ -251,7 +251,7 @@ Entre les deux commentaires en début de fichier, ajoutez les boucles imbriquée
 
 ![](images-readme/matriceNombres.png)
 
-### 12 - Art ASCII
+## 12 - Art ASCII
 
 Ouvrez le fichier `artAscii.php`. Vous trouverez ceci dans le corps de la page:
 
